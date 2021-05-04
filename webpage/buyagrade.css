@@ -9,7 +9,6 @@ body {
     border: 10px #D8C858 solid;
     padding: 0.5em;
 }
-
 hr {
     width: 90%;
     border: 1px solid #D8C858;
@@ -20,7 +19,23 @@ h1, h2 {
     text-align: center;
 }
 
+input,
+select{
+    display: block;
+    background: lightgrey;
+    margin-left: 50px;
+}
+
 input[type="submit"] {
     font-size: 2em;
     width: 100%;
+    margin-left: 0;
+}
+.rbtn{
+    display: inline;
+    margin-left: 0;
+}
+.radio{
+    margin-left: 60px;
+    margin-bottom: 20px;
 }
